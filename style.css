@@ -1,0 +1,50 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr{
+    width: 50%;
+    margin-bottom: 25px;
+
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.foto img {
+    display: flex;
+    justify-content: center;
+    width:  200px;
+    border-radius: 50%;
+}
+.descricao, .experienciaProfissional, .formacao{
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 450px;
+    float:left;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+body {
+    background: url("img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.text-center img {
+    border-radius: 50% !important;
+    width: 200px !important;
+    margin: 50px
+}
+
+.card-group {
+    padding: 0px 150px !important;
+}
+
+.card {
+    margin-right: 5px;
+}
